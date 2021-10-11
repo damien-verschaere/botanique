@@ -121,9 +121,15 @@ footer{
 }
 .imgvault{
     height:100px;
+    margin-top: 15px;
 }
 .arbreenville{
     height: 100px;
+    margin-top: 15px;
+}
+.marseille{
+    height: 100px;
+    margin-top: 15px;
 }
 .footerimage{
     display: flex;
@@ -134,4 +140,17 @@ footer{
     font-family: "OCR A Std", "monospace";
     font-size: large;
 }
+.potagerkyoto .potager {
+    height:500px;
+    margin-left: 40px;
+
+}
+.potagerkyoto h2{
+    margin-left: 40px;
+}
+.introlegume{
+    float:inherit;
+}
+
+
 
