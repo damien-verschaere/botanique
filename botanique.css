@@ -1,0 +1,128 @@
+/* body{margin:0;display: grid;min-height:100vh;place-items:center;padding:20px}
+	ul{list-style-type: none;padding:0;margin:0} */
+
+
+/* code header Max */
+
+    .contpresheader {
+        padding: 0px 20px;
+        background-color: #dad7cd;
+    }
+    .navbarre, ul {
+        margin: 20px;
+        padding: 0px;
+        list-style: none;
+    
+    }
+    .navbarre a {
+        margin-top:  -130px;
+        padding: 40px;
+        display: flex;
+        text-align:end;
+        text-decoration: none;
+        color: darkslategray;
+        size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .navbarre .listecatnav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .logoheader {
+        display: block;
+        text-align: left;
+    }
+    /* ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        float: right;
+    } */
+    .effet1:hover {
+        color: #6a994e;
+        transition: 1s ease-out;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: #a3b18a;
+}	
+.galerie {
+	
+width: 600px;
+max-width: 100%;
+max-height:398px;
+margin: auto;
+display: flex; 
+overflow-y: hidden;
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory
+	
+}
+
+.galerie img {
+margin:0;
+min-width:100%;
+align-self: center; /*pour le responsive*/
+scroll-snap-align: center
+	
+}
+
+.ancre {
+	
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+
+}
+	
+.ancre li{
+	
+display: inline-flex;
+justify-content: center;
+align-items:center;
+width: 30px;
+height: 30px;
+background: #404040;
+border-radius: 50%;
+}
+	
+.ancre li a{color:white}
+	
+.ancre li:not(:last-child){
+  margin-right: 30px;
+}
+
+
+.ancre li a:hover {
+  opacity: 0.5;
+} 
+footer{
+    background-color: #3A5A40;
+    
+    margin: 0 auto;width: 100%;
+    height: 40vh;
+ 
+}
+.imgvault{
+    height:100px;
+}
+.arbreenville{
+    height: 100px;
+}
+.footerimage{
+    display: flex;
+    justify-content: space-around;
+}
+
