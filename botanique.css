@@ -1,10 +1,9 @@
-/* body{margin:0;display: grid;min-height:100vh;place-items:center;padding:20px}
-	ul{list-style-type: none;padding:0;margin:0} */
-    /* html, body {
+
+    html, body {
         height: 100%;
         padding: 0;
         margin: 0;
-      }   */
+      }  
 
 /* code header Max */
 
@@ -299,6 +298,17 @@ h1{
 }
 
 
-
-
-
+/* page FLEUR damien  */
+.containerfleur{
+    background-image: url("image/fleur1.jpg");
+    padding: 220px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+}
+.textefleur{
+   border: #fff;
+   background-color: white;
+   margin-left: 500px;
+   margin-right: 50px;
+}
