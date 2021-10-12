@@ -1,52 +1,79 @@
 /* body{margin:0;display: grid;min-height:100vh;place-items:center;padding:20px}
 	ul{list-style-type: none;padding:0;margin:0} */
-    html, body {
+    /* html, body {
         height: 100%;
         padding: 0;
         margin: 0;
-      }  
+      }   */
 
 /* code header Max */
 
-    .contpresheader {
-        padding: 0px 20px;
-        background-color: #dad7cd;
-    }
-    .navbarre, ul {
-        margin: 20px;
-        padding: 0px;
-        list-style: none;
+.contpresheader {
+    padding: 0px 20px;
+    background-color: #729B79; 
     
-    }
-    .navbarre a {
-        margin-top:  -130px;
-        padding: 40px;
-        display: flex;
-        text-align:end;
-        text-decoration: none;
-        color: darkslategray;
-        size: 30px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-    }
-    .navbarre .listecatnav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .logoheader {
-        display: block;
-        text-align: left;
-    }
-    /* ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        float: right;
-    } */
-    .effet1:hover {
-        color: #6a994e;
-        transition: 1s ease-out;
-    }
+}
+.navbarre, ul {
+    margin: 20px;
+    padding: 0px;
+    list-style: none;
+
+}
+.navbarre a {
+    margin-top:  -130px;
+    padding: 41px;
+    display: flex;
+    text-align:end;
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+    size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.navbarre .listecatnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logoheader {
+    display: block;
+    text-align: left;
+}
+.listecatnav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+}
+
+/* .feliste1 {
+    background-color:#edc4b3 ;
+}
+.feliste2 {
+    background-color:#d69f7e;
+}
+.feliste3 {
+    background-color: #b07d62;
+}
+.feliste4 {
+    background-color: #8a5a44;
+}
+.effet1:hover {
+    color: #edc4b3;
+    transition: 1s ease-out;
+}
+.effet2:hover {
+    color: #d69f7e;
+    transition: 1s ease-out;
+}
+.effet3:hover {
+    color: #b07d62;
+    transition: 1s ease-out;
+}
+.effet4:hover {
+    color: #8a5a44;
+    transition: 1s ease-out;
+} */
 
 
 
@@ -57,7 +84,7 @@
 
 
 
-
+/* PAGE ACCUEIL */
 /* code damien + footer damien */
 body{
     background-color: #a3b18a;
@@ -71,14 +98,15 @@ margin: auto;
 display: flex; 
 overflow-y: hidden;
 scroll-behavior: smooth;
-scroll-snap-type: x mandatory
+scroll-snap-type: x mandatory;
+
 	
 }
 
 .galerie img {
 margin:0;
 min-width:100%;
-align-self: center; /*pour le responsive*/
+align-self: center; 
 scroll-snap-align: center
 	
 }
@@ -91,7 +119,7 @@ justify-content: center;
 
 }
 	
-.ancre li{
+/* .ancre li{
 	
 display: inline-flex;
 justify-content: center;
@@ -100,7 +128,7 @@ width: 30px;
 height: 30px;
 background: #404040;
 border-radius: 50%;
-}
+} */
 	
 .ancre li a{color:white}
 	
@@ -115,7 +143,8 @@ border-radius: 50%;
 footer{
     background-color: #3A5A40;
     
-    margin: 0 auto;width: 100%;
+    margin: 0 auto;
+    width: 100%;
     height: 40vh;
  
 }
@@ -140,17 +169,136 @@ footer{
     font-family: "OCR A Std", "monospace";
     font-size: large;
 }
-.potagerkyoto .potager {
-    height:500px;
-    margin-left: 40px;
 
+
+
+
+/* page Legumes */
+
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    margin-left: 100px;
+    color: white;
+    font-size:60px;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;
+     color:#fff;
 }
-.potagerkyoto h2{
+.potagerkyoto {
+    display: flex;
+    height:300px;
     margin-left: 40px;
+   
 }
-.introlegume{
-    float:inherit;
+.legumeimage1{
+    display: flex;
+    margin-bottom: 10px;
+    
+   
 }
+.legumetexte1 {
+    display: flex;
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: large;
+    color: white;
+}
+
+
+.titrepotager{
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;
+     color:#fff;
+}
+.recolte{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.titrerecolte{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;
+     color:#fff; 
+}
+.recolte {
+    display: flex;
+    height:300px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+.legumeimage2{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    
+}
+.legumetexte2{
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: white;
+    font-size: large;
+}
+.titrepermaculture{
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;
+     color:#fff;
+}
+.permaculture{
+    display: flex;
+    height:300px;
+    margin-left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    
+}
+
+
 
 
 
