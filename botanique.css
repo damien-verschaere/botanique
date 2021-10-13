@@ -448,3 +448,595 @@ h1{
     justify-content: center;
     
     }
+    /* CODE CSS MAX */
+    #presenta1 {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .elementpres1 {
+        font-size: 42px;
+        margin-bottom: -80px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #BACDB0;
+        text-shadow:   -1px -1px 0 #000, 
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000,
+         1px 1px 2px #141414,
+         1px 1px 3px #141414,
+         1px 1px 5px #141414,
+         1px 1px 7px #141414
+    }
+    .elementpres2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+       
+    }
+    .elementpres3 {
+        display: flex;
+        justify-content: right;
+        font-size: 42px;
+        margin-top: -80px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #BACDB0;
+        text-shadow:   -1px -1px 0 #000, 
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000,
+         1px 1px 2px #141414,
+         1px 1px 3px #141414,
+         1px 1px 5px #141414,
+         1px 1px 7px #141414
+    }
+    .textepres2:hover {
+        color: white;
+        transition: 1s ease-out;
+    }
+    .textepres1:hover {
+        color: white;
+        transition: 1s ease-out;
+    }
+    
+    .templedelo:hover {
+        background-image: url("image/DSC_0476.JPG");
+    }
+    .titrepres {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 55px;
+        color: #ddb892;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow:   -1px -1px 0 #000,  /*Rajouter des lignes de shadow permet d'étendre l'hombrage comme on souhaite*/
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000,
+         1px 1px 2px #141414,
+         1px 1px 3px #141414,
+         1px 1px 5px #141414,
+         1px 1px 7px #141414,
+         1px 1px 10px #141414,
+         1px 1px 12px #141414,
+         1px 1px 18px #141414;
+    }
+    .parapres1 {
+        text-align: center;
+        margin-right: 200px;
+        margin-left: 200px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 120%;
+        background-color: #9d6b53;
+        color: #fff;
+        border-radius: 6px;
+    }
+    .backparapres1 {
+        background-image: url(image/nature-background-with-golden-foil_52683-46949.jpg);
+        background-clip: padding-box;
+        padding: 20px
+    }
+    .paragraphepres1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        padding: 40px;
+        margin-right: 400px;
+        margin-left: 400px;
+        background-color: #899D78;
+        border-radius: 50px;
+    }
+    .imagepres {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .hyperlienpres1 {
+        color: black;
+    }
+    .hyperlienpres1:hover {
+        color: rgb(204, 0, 0);
+        transition: 1s ease-out;
+    
+    }
+    .photo1plante {
+    margin-left: 10px;
+}
+
+.conteneurplante {
+    text-align: right;
+    background-clip:border-box;
+    background-image: url(image/DSC_0403.JPG);
+    background-size: 100%;
+    padding: 220px;
+   
+}
+.contenuplante1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 130%;
+    padding: 20px;
+    margin-top: -120px;
+    columns: 1;
+    margin-left: 70%;
+}
+.titreplante {
+    text-decoration: underline;
+    text-shadow:   -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+}
+
+.backgroundplante1 {
+    /* background-image: url(image/feuille1.jpg); */
+    background-color: #d7d9ce;
+    background-size: 18%;
+    padding: 60px;
+    margin-top: 20px;
+}
+.contenumainplante1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 4px;
+    column-gap: 80px;
+}
+.colonnecont1 {
+    content: 80%;
+    columns: 1;
+    margin: 140;
+}
+.colonnecont2 {
+    columns: 1;
+    margin: 140px;
+    
+}
+.titrecolonnep1, .titrecolonnep2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder ;
+    text-align: center;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+}
+.paracolonnep1, .paracolonnep2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{box-sizing:border-box}
+img{
+    max-width: 100%;
+}
+.backphotoplant {
+    background-image: url(image/leaves-1498985_960_720.jpg);
+    background-color: #729B79;
+    background-repeat: repeat;
+    height: 780px;
+    padding: 7px;
+   
+}
+.galeriephotoplante {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 800px;
+    margin: 1rem auto;
+}
+.listephotoplante {
+    display: flex;
+padding-bottom: 66.67%;
+position: relative;
+overflow: hidden;
+list-style-type: none;
+margin:0;
+}
+.galeriephotoplante ul li a img {
+    flex: 1; /*les photos occupent la même place selon la largeur du conteneur*/
+    padding: 5rem auto;
+
+}
+.galeriephotoplante ul li span img {
+    position: absolute;
+size: 80%;
+bottom: 0;
+left: -100%;
+opacity: 0;
+transition: all .6s
+}
+.galeriephotoplante ul li:focus-within span img {
+    left: 0;
+    opacity: 1;
+}
+.titregalerieplante {
+    background-color: #344e41;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font: bolder;
+    font-size: 250%;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+    
+}
+.textegalerieint::placeholder {
+    
+    align-items: center;
+}
+#intgalerie {
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 130px;
+    background-color: #F3E8EE;
+    
+}
+/*-----------------------------< Css Plantes "MAX" >--------------------------------*/
+.photo1plante {
+    margin-left: 10px;
+}
+
+.conteneurplante {
+    text-align: right;
+    background-clip:border-box;
+    background-image: url(image/DSC_0403.JPG);
+    background-size: 100%;
+    padding: 220px;
+   
+}
+.contenuplante1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 130%;
+    padding: 20px;
+    margin-top: -120px;
+    columns: 1;
+    margin-left: 70%;
+}
+.titreplante {
+    text-decoration: underline;
+    text-shadow:   -1px -1px 0 #000, 
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+}
+
+.backgroundplante1 {
+    /* background-image: url(image/feuille1.jpg); */
+    background-color: #d7d9ce;
+    background-size: 18%;
+    padding: 60px;
+    margin-top: 20px;
+}
+.contenumainplante1 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 4px;
+    column-gap: 80px;
+}
+.colonnecont1 {
+    content: 80%;
+    columns: 1;
+    margin: 140;
+}
+.colonnecont2 {
+    columns: 1;
+    margin: 140px;
+    
+}
+.titrecolonnep1, .titrecolonnep2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder ;
+    text-align: center;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+}
+.paracolonnep1, .paracolonnep2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{box-sizing:border-box}
+img{
+    max-width: 100%;
+}
+.backphotoplant {
+    background-image: url(image/leaves-1498985_960_720.jpg);
+    background-color: #729B79;
+    background-repeat: repeat;
+    height: 780px;
+    padding: 7px;
+   
+}
+.galeriephotoplante {
+    background-color: rgba(255, 255, 255, 0.6);
+    max-width: 800px;
+    margin: 1rem auto;
+}
+.listephotoplante {
+    display: flex;
+padding-bottom: 66.67%;
+position: relative;
+overflow: hidden;
+list-style-type: none;
+margin:0;
+}
+.galeriephotoplante ul li a img {
+    flex: 1; /*les photos occupent la même place selon la largeur du conteneur*/
+    padding: 5rem auto;
+
+}
+.galeriephotoplante ul li span img {
+    position: absolute;
+size: 80%;
+bottom: 0;
+left: -100%;
+opacity: 0;
+transition: all .6s
+}
+.galeriephotoplante ul li:focus-within span img {
+    left: 0;
+    opacity: 1;
+}
+.titregalerieplante {
+    background-color: #344e41;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font: bolder;
+    font-size: 250%;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color:#fff;
+    
+}
+.textegalerieint::placeholder {
+    
+    align-items: center;
+}
+#intgalerie {
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 130px;
+    background-color: #F3E8EE;
+    
+}
+/*------------------------------< Css arbuste Max >----------------------------*/
+.arbustetitre{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow:   -1px -1px 0 #000,  /*Rajouter des lignes de shadow permet d'étendre l'hombrage comme on souhaite*/
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 2px #141414,
+     1px 1px 3px #141414,
+     1px 1px 5px #141414,
+     1px 1px 7px #141414,
+     1px 1px 10px #141414,
+     1px 1px 12px #141414,
+     1px 1px 18px #141414;color: #fff;
+}
+.presarb1 {
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.separationpage {
+    color: #7f4f24;
+    font-size: 45px;
+    text-align: center;
+}
+
+.conteneurarb1, .conteneurarb2,.conteneurarb3,.conteneurarb4,.conteneurarb5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 130px;
+    margin-left: 100px;
+    margin-left: 100px;
+    padding: 50px;
+    
+}
+.contarb1, .contarb4,.contarb5,.contarb8,.contarb9 {
+    border-radius: 30px;
+    padding: 7px;
+    background-color: #e7c794ad;
+}
+.contarb2,.contarb3,.contarb6,.contarb7,.contarb10 {
+    border-radius: 500px;
+    background-color: #dc8d6c;
+    padding: 20px;
+}
+.contarb1:hover {
+    background-image: url("image/skimmia-japonica-181756.jpg");
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb2:hover {
+    background-image: url("image/deutzia.jpg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb3:hover {
+    background-image: url("image/forsythia.jpg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb4:hover {
+    background-image: url("image/lilas.jpg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb5:hover {
+    background-image: url("image/bougainn.jpg");
+    background-size: 116%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb6:hover {
+    background-image: url("image/corete-100417.jpg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb7:hover {
+    background-image: url("image/fleuri.jpg");
+    background-size: 110%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb8:hover {
+    background-image: url("image/viorne.jpg");
+    background-size: 100%;
+    transition: 3s ease-out;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+.contarb9:hover {
+    background-image: url("image/gene.jpeg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+
+.contarb10:hover {
+    background-image: url("image/athlea.jpg");
+    background-size: 100%;
+    color:rgba(255, 255, 255, 0.1);
+    transition: 1s ease-out;
+}
+
+.zoomelem1 ,.zoomelem2,.zoomelem3,.zoomelem4,.zoomelem5,.zoomelem6,.zoomelem7,.zoomelem8,.zoomelem9,.zoomelem10 {
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.effetzoom1:hover  {
+    font-size: 170%;
+}
+.conteneurarbuste1 {
+    text-align: right;
+    background-clip: border-box;
+    background-image: url(image/jardinbotanique.jpg);
+    background-size: 100%;
+    padding: 340px;
+}
+.contenuarbuste1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 140%;
+    padding: 19px;
+    columns: 1;
+    margin-right: 60%;
+    
+}
+.hyperlienarb1 {
+    color: black;
+    text-decoration: none;
+}
+.hyperlienarb1:hover {
+    color: rgb(3, 3, 165);
+    transition: 1s ease-out;
+
+}
+.hyperlienarb2 {
+    color: black;
+    text-decoration: none;
+}
+.hyperlienarb2:hover {
+    color: rgb(204, 0, 0);
+    transition: 1s ease-out;
+}
+
+    
