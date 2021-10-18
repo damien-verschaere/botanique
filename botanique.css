@@ -325,19 +325,15 @@ h1{
 /* page FLEUR damien  */
 .containerfleur{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("image/fleur7.jpg");
     background-size:cover;
     padding:300px;
     background-repeat: no-repeat;
     background-clip: border-box;
 }
-.textefleur{
- 
-   border: #fff;
-   background-color: white;
-   margin-right: 300px;
-   background: rgba(250, 245, 245, 0.4);
-}
+
 .entetefleur{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     text-align: center;
@@ -377,6 +373,7 @@ h1{
      1px 1px 12px #141414,
      1px 1px 18px #141414;
      color:#fff;
+     opacity: 0.6;
   
 }
 	
